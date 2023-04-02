@@ -1,6 +1,10 @@
+/********************************** Tag Selectors **********************************/
+
+
 body{
     background-color: #E4D0D0;
 }
+
 hr{
     border-style: dotted none none none;
     border-color: #413543;
@@ -8,11 +12,51 @@ hr{
     height: 0px;
     width: 40%;
 }
+
 h1{
     color: #413543;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Century Gothic';
+    font-size: 100px;
+    height: 50 px;
+    letter-spacing: 10px;
+    text-align: center;
 }
+
+h1:hover{
+    color: aquamarine;
+}
+
 h2{
     color: #2C3333;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th{
+    font-family:'Century Gothic';
+    font-size: 18px;
+    text-align: left;
+}
+
+
+/********************************** Class Selectors **********************************/
+
+.heading{
+    font-family:'Century Gothic';
+    font-size: 18px;
+    text-align: left;
+}
+
+.familiarity{
+    font-family: 'Century Gothic';
+    font-size: 18px;
+}
+.text{
+    font-size: 18px;
+}
+
+/********************************** ID Selectors **********************************/
+
+#summary{
+    font-family: Bahnschrift;
+    font-size: 23px;
 }
