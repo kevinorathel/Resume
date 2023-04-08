@@ -13,22 +13,10 @@ hr{
     width: 40%;
 }
 
-h1{
-    color: #413543;
-    font-family: 'Century Gothic';
-    font-size: 100px;
-    height: 50 px;
-    letter-spacing: 10px;
-    text-align: center;
-}
-
-h1:hover{
-    color: #ABC4AA;
-}
-
 h2{
     color: #2C3333;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Montserrat';
+    font-size: 55px;
 }
 
 th{
@@ -39,6 +27,15 @@ th{
 
 
 /********************************** Class Selectors **********************************/
+
+.name{
+    color: #413543;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    height: 50 px;
+    letter-spacing: 10px;
+    text-align: center;
+}
 
 .heading{
     font-family:'Century Gothic';
@@ -54,9 +51,16 @@ th{
     font-size: 18px;
 }
 
+.dp{
+    width: 250px;
+    height: 250px;
+}
+
 /********************************** ID Selectors **********************************/
 
 #summary{
     font-family: Bahnschrift;
     font-size: 23px;
+    padding-top: 5rem;
+    text-align: center;
 }
